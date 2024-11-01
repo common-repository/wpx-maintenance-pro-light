@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-develop',
+        'version' => 'dev-develop',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'e43cf06ac44c8ca8aec27837c24fe42fb1c73b39',
+        'name' => 'gfazioli/wpxmaintenanceprolight',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'gfazioli/wpxmaintenanceprolight' => array(
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'e43cf06ac44c8ca8aec27837c24fe42fb1c73b39',
+            'dev_requirement' => false,
+        ),
+        'wpbones/pure-css-switch' => array(
+            'pretty_version' => '1.0.9',
+            'version' => '1.0.9.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wpbones/pure-css-switch',
+            'aliases' => array(),
+            'reference' => '69ab35529e08979401f80450c9ca0d51f96ee9e6',
+            'dev_requirement' => false,
+        ),
+        'wpbones/pure-css-tabs' => array(
+            'pretty_version' => '1.0.11',
+            'version' => '1.0.11.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wpbones/pure-css-tabs',
+            'aliases' => array(),
+            'reference' => 'c6b6c45bfc77dd3a9481a781d94b71106facfa41',
+            'dev_requirement' => false,
+        ),
+        'wpbones/wpbones' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wpbones/wpbones',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => 'd3114251927bec16bf53bb00c69efdd29786b052',
+            'dev_requirement' => false,
+        ),
+    ),
+);
